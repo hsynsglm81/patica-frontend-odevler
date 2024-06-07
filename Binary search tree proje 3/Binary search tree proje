@@ -1,0 +1,64 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2]
+
+Aşamalar:
+Root:
+
+İlk eleman root (kök) olarak seçilir.
+Root 7'dir.
+5 eklenir:
+
+5, 7'den küçüktür, bu yüzden soluna eklenir.
+Root'un solunda 5 bulunur.
+1 eklenir:
+
+1, 7'den küçüktür, 5'ten de küçüktür, bu yüzden 5'in soluna eklenir.
+5'in solunda 1 bulunur.
+8 eklenir:
+
+8, 7'den büyüktür, bu yüzden sağına eklenir.
+Root'un sağında 8 bulunur.
+3 eklenir:
+
+3, 7'den küçüktür, 5'ten de küçüktür, 1'den büyüktür, bu yüzden 1'in sağına eklenir.
+1'in sağında 3 bulunur.
+6 eklenir:
+
+6, 7'den küçüktür, 5'ten büyüktür, bu yüzden 5'in sağına eklenir.
+5'in sağında 6 bulunur.
+0 eklenir:
+
+0, 7'den küçüktür, 5'ten de küçüktür, 1'den de küçüktür, bu yüzden 1'in soluna eklenir.
+1'in solunda 0 bulunur.
+9 eklenir:
+
+9, 7'den büyüktür, 8'den de büyüktür, bu yüzden 8'in sağına eklenir.
+8'in sağında 9 bulunur.
+4 eklenir:
+
+4, 7'den küçüktür, 5'ten de küçüktür, 1'den büyüktür, 3'ten de büyüktür, bu yüzden 3'ün sağına eklenir.
+3'ün sağında 4 bulunur.
+2 eklenir:
+
+2, 7'den küçüktür, 5'ten de küçüktür, 1'den büyüktür, 3'ten küçüktür, bu yüzden 3'ün soluna eklenir.
+3'ün solunda 2 bulunur.
+Sonuç:
+        7
+       / \
+      5   8
+     / \   \
+    1   6   9
+   / \
+  0   3
+     / \
+    2   4
+Aşamaların Özeti:
+Root 7'dir.
+Root'un solunda 5 bulunur.
+5'in solunda 1 bulunur.
+Root'un sağında 8 bulunur.
+1'in sağında 3 bulunur.
+5'in sağında 6 bulunur.
+1'in solunda 0 bulunur.
+8'in sağında 9 bulunur.
+3'ün sağında 4 bulunur.
+3'ün solunda 2 bulunur.
