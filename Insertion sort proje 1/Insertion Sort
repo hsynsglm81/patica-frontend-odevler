@@ -1,0 +1,28 @@
+[22, 27, 16, 2, 18, 6]
+
+Insertion Sort algoritmasına göre diziyi sıralayalım:
+
+İlk eleman zaten sıralı kabul edilir: [22, 27, 16, 2, 18, 6]
+İkinci eleman (27) ile karşılaştırılır ve yerinde kalır: [22, 27, 16, 2, 18, 6]
+Üçüncü eleman (16) ile karşılaştırılır ve doğru yere yerleştirilir: [16, 22, 27, 2, 18, 6]
+Dördüncü eleman (2) ile karşılaştırılır ve doğru yere yerleştirilir: [2, 16, 22, 27, 18, 6]
+Beşinci eleman (18) ile karşılaştırılır ve doğru yere yerleştirilir: [2, 16, 18, 22, 27, 6]
+Altıncı eleman (6) ile karşılaştırılır ve doğru yere yerleştirilir: [2, 6, 16, 18, 22, 27]
+
+Big-O Gösterimi
+Insertion Sort'un en kötü durum zaman karmaşıklığı O(n^2)'dir. Ortalama durumda da O(n^2) ve en iyi durumda O(n) zaman karmaşıklığına sahiptir.
+
+Time Complexity: 18 Sayısının Durumu
+Dizi sıralandıktan sonra: [2, 6, 16, 18, 22, 27]
+
+18 sayısı dizinin ortasında yer almaktadır. Bu nedenle, 18 sayısı Average case kapsamına girer.
+
+Selection Sort Aşamaları
+Verilen dizi: [7, 3, 5, 8, 2, 9, 4, 15, 6]
+
+Selection Sort algoritmasına göre ilk 4 adımı yazalım:
+
+İlk adım: En küçük eleman (2) bulunur ve ilk elemanla yer değiştirilir: [2, 3, 5, 8, 7, 9, 4, 15, 6]
+İkinci adım: Kalan elemanlar arasında en küçük eleman (3) bulunur ve ikinci elemanla yer değiştirilir: [2, 3, 5, 8, 7, 9, 4, 15, 6]
+Üçüncü adım: Kalan elemanlar arasında en küçük eleman (4) bulunur ve üçüncü elemanla yer değiştirilir: [2, 3, 4, 8, 7, 9, 5, 15, 6]
+Dördüncü adım: Kalan elemanlar arasında en küçük eleman (5) bulunur ve dördüncü elemanla yer değiştirilir: [2, 3, 4, 5, 7, 9, 8, 15, 6]
