@@ -1,1 +1,1 @@
-# patica-frontend-devler
+# patica-frontend-odevler
