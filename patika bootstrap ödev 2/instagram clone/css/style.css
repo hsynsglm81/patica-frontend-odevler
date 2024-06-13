@@ -2,6 +2,22 @@ body {
   background-color: #eeeeee72;
 }
 
+.navbar{
+  height: 54px;
+  background-color: white;
+
+}
+
+.navbar .logo{
+  margin-left: 192px;
+}
+
+.input-group input{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
 ::placeholder {
   text-align: center;
   font-size: 14px;
